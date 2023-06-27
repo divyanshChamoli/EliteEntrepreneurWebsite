@@ -1,0 +1,68 @@
+.OpportunityPage{
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://eec.world/assets/images/opportunity-sec-bg-img.jpg');
+    background-position: center;
+    object-fit: cover;
+    object-position: center;
+}
+
+.OpportunityPage-item{
+    width: 60%;
+}
+
+.opportunityPageContent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5rem;
+}
+
+.opportunityPageContent p,#heading{
+    /* color: #fff; */
+    text-align: left;
+    line-height: 3rem;
+}
+
+#heading{
+    margin-top: 20%;
+}
+
+
+
+.opportunityPageContent span{
+    color: var(--brown);
+    font-weight: 700;
+}
+
+#tag-line{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.copyrights{
+    position: absolute;
+    text-align: center;
+    bottom: 2rem;
+}
+
+.copyrights p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.fp-is-overflow > .fp-overflow {
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}

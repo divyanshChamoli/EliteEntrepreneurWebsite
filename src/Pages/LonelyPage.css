@@ -1,0 +1,76 @@
+.LonelyPage{
+    height: 100vh;
+    background-color: #FFFAF3;
+    display: flex;
+}
+
+.LonelyPage-item{
+    display: flex;
+    height: 100vh !important;
+}
+
+.item-1{
+    flex:5;
+}
+
+.item-2{
+    flex:1;
+}
+
+.item-2 img{
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(1);
+}
+
+.lonelyPageContent{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    gap: 4rem;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.lonelypagecontent-item{
+    /* display: flex;
+    flex-direction: column; */
+    gap: 50px;
+}
+
+
+.lonelyPageContent h2{
+    color: black;
+}
+
+.lonelyPageContent p{
+    color: black;
+}
+
+#p-span1{
+    color: var(--brown);
+    font-weight: 800;    
+}
+
+#p-span2{
+    color: #77716D;
+    font-weight: 800;    
+}
+
+.lonelyPageContent ul{
+    padding-left: 3rem;
+}
+
+.lonelyPageContent ul li{
+    font-size: 1.4rem;
+    line-height: 3rem;
+    font-weight: 200;
+}
+
+.lonelyPageContent ul li span{
+    color: var(--brown);
+    font-weight: 600;
+    
+}
+

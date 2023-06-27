@@ -1,0 +1,41 @@
+.PageTemplate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-image: url('https://eec.world/assets/images/network-sec-bg.jpg'); */
+    background-size: cover;
+    background-position: center;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 40%;
+    text-align: center;
+    justify-content: space-between;
+    /* align-items:flex-end; */
+}
+
+.content-container h2{
+    font-size: 5.4rem;
+    text-transform: capitalize;
+    color: var(--brown);
+    font-weight: 300;
+}
+
+.content-container p{
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    color: #fff;
+    font-weight: 200;
+}
+
+.bg-1{
+    background-image: url('https://eec.world/assets/images/quality-r-bg.jpg');
+}
+
+.bg-2{
+    background-image: url('https://eec.world/assets/images/network-sec-bg.jpg');
+}

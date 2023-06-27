@@ -1,0 +1,8 @@
+button{
+    color: var(--brown);
+    border: 1px solid var(--brown);
+    padding: 1rem 3rem;
+    text-transform: capitalize;
+    background: transparent;
+}
+
