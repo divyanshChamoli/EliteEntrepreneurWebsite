@@ -1,18 +1,18 @@
 import React from "react";
-import ReactFullpage from "@fullpage/react-fullpage";
+// import ReactFullpage from "@fullpage/react-fullpage";
 import "./index.css";
 import HomePage from "./Pages/HomePage.jsx";
-import LeadersGrowPage from "./Pages/LeadersGrowPage.jsx";
-import QualityRelationsPage from "./Pages/QualityRelationsPage.jsx";
-import LonelyPage from "./Pages/LonelyPage.jsx";
-import ReimagineNetworkPage from "./Pages/ReimagineNetworkPage.jsx";
-import OpportunityPage from "./Pages/OpportunityPage.jsx";
-import Form from "./Components/Form.jsx";
+// import LeadersGrowPage from "./Pages/LeadersGrowPage.jsx";
+// import QualityRelationsPage from "./Pages/QualityRelationsPage.jsx";
+// import LonelyPage from "./Pages/LonelyPage.jsx";
+// import ReimagineNetworkPage from "./Pages/ReimagineNetworkPage.jsx";
+// import OpportunityPage from "./Pages/OpportunityPage.jsx";
+// import Form from "./Components/Form.jsx";
 import { Route, Routes } from "react-router-dom";
-import CombinedPage from "./Pages/FullPageComponent.jsx";
-import Fullpage from "fullpage.js";
+// import CombinedPage from "./Pages/FullPageComponent.jsx";
+// import Fullpage from "fullpage.js";
 import FullPageComponent from "./Pages/FullPageComponent.jsx";
-import { useState } from "react";
+// import { useState } from "react";
 
 
 function App(props) {

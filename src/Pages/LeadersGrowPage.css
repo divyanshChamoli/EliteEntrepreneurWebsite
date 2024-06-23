@@ -1,0 +1,65 @@
+.LeadersGrowPage{
+    height: 100vh;
+    display: flex;
+}
+
+.LeadersGrowPage-item{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.leftSide{
+    position: relative;
+}
+
+.leftSide img{
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(1);
+}
+
+
+.rightSide{
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #151515;;
+}
+
+.leadersGrowHeading, .leadersGrowContent{
+    width: 65%;
+}
+
+.leadersGrowContent p{
+    margin-top: 2rem;
+}
+
+.leadersGrowContent p span{
+    color: var(--brown);
+    font-weight: 600;
+}
+
+
+
+/* .rightSide h2,p{
+    width: 80%;
+
+    margin: 10% 1%;
+} */
+
+
+
+
+/* .mainContent{
+    width: 80%;
+} */
+
+.fp-is-overflow > .fp-overflow {
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
